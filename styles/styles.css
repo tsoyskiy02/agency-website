@@ -22,7 +22,7 @@ ul {
     list-style: none;
 }
 
-.title {
+.main-banner-info h1 {
     font-weight: 600;
     font-size: 64px;
     line-height: 72px;
@@ -36,15 +36,15 @@ ul {
     color: #1D3444;
 }
 
-.card-title {
+.card-wrapper strong {
     font-weight: 500;
     line-height: 107%;
     font-size: 24px;
     color: #0d1317;
-    margin-top: 33px;
+    display: inline-block;
 }
 
-.card-description {
+.card-wrapper p {
     font-weight: 500;
     line-height: 28px;
     color: #5b5b5b;
@@ -64,7 +64,7 @@ ul {
     margin-bottom: 96px;
 }
 
-.description {
+.main-banner-info p {
     font-weight: 500;
     font-size: 18px;
     line-height: 30px;
@@ -74,6 +74,14 @@ ul {
 .container {
     max-width: 1280px;
     margin-inline: auto;
+    position: relative;
+    padding: 96px 0;
+}
+
+.header-container {
+    max-width: 1280px;
+    margin-inline: auto;
+    position: relative;
 }
 
 .aqua {
@@ -104,7 +112,6 @@ ul {
     position: relative;
     overflow: hidden;
     min-height: 600px;
-    margin-bottom: 96px;
 }
 
 .decor {
@@ -117,7 +124,7 @@ ul {
     width: 220px;
     height: 380px;
     left: 200px;
-    top: 280px;
+    top: 330px;
     opacity: 75%;
     z-index: 2;
     background: rgba(245, 138, 7, 1);
@@ -153,13 +160,20 @@ ul {
     pointer-events: none;
 }
 
-.button {
+.main-button {
     padding: 18px 32px;
     -webkit-border-radius: 31px;
     -moz-border-radius: 31px;
     border-radius: 31px;
     font-weight: 600;
     font-size: 16px;
+    color: #fff;
+    background-color: #F58A07;
+}
+
+.transparent {
+    background-color: transparent;
+    color: #1D3444;
 }
 
 .light-button {
@@ -167,11 +181,6 @@ ul {
     color: #f58a07;
     font-weight: 600;
     line-height: 107%;
-}
-
-.active-button {
-    color: #fff;
-    background-color: #F58A07;
 }
 
 .header-wrapper {
@@ -238,7 +247,7 @@ ul {
 
 .main-banner-image {
     position: absolute;
-    right: 105px;
+    right: -290px;
     top: 57%;
     transform: translateY(-50%);
     z-index: 1;
@@ -293,7 +302,6 @@ ul {
 .business-info {
     display: flex;
     gap: 40px;
-    margin-top: 96px;
 }
 
 .business-info .subtitle {
@@ -313,7 +321,6 @@ ul {
     gap: 38px;
     align-content: center;
     margin-top: 64px;
-    margin-bottom: 96px;
 }
 
 .info-cards .info-card {
@@ -322,20 +329,22 @@ ul {
     padding: 48px 26px 37px 39px;
 }
 
-.info-cards .info-card .info-card-title {
+.info-cards .info-card strong {
     color: #0d1317;
     font-weight: 600;
     font-size: 24px;
     line-height: 107%;
     margin-top: 32px;
+    display: inline-block;
     margin-bottom: 16px;
 }
 
-.info-cards .info-card .info-card-description {
+.info-cards .info-card p {
     font-size: 16px;
     line-height: 28px;
     color: #5b5b5b;
 }
+
 
 .energy-wrapper {
     display: flex;
@@ -389,7 +398,6 @@ ul {
 
 .energy-img {
     position: relative;
-    margin-bottom: 96px;
 }
 
 .energy-img img {
@@ -500,7 +508,6 @@ ul {
 .dream-info {
     display: flex;
     gap: 110px;
-    margin: 128px 0;
 }
 
 .dream-info .dream-title {
@@ -578,7 +585,7 @@ ul {
 }
 
 .news {
-    margin-top: 96px;
+    margin-bottom: 64px;
 }
 
 .news h2 {
@@ -592,7 +599,6 @@ ul {
 .news-cards {
     display: flex;
     gap: 40px;
-    margin-bottom: 96px;
 }
 
 .news-cards .card {
@@ -607,8 +613,22 @@ ul {
     padding: 32px;
 }
 
+.card strong {
+    font-weight: 500;
+    line-height: 107%;
+    font-size: 24px;
+    color: #0d1317;
+    margin-top: 33px;
+    display: inline-block;
+}
+
+.card p {
+    font-weight: 500;
+    line-height: 28px;
+    color: #5b5b5b;
+}
+
 .footer-content {
-    padding-top: 80px;
     display: flex;
     gap: 110px;
 }
@@ -726,7 +746,7 @@ ul {
 .footer-bottom {
     display: flex;
     justify-content: space-between;
-    margin: 80px 0;
+    margin-top: 80px;
 }
 
 .footer-bottom div {
