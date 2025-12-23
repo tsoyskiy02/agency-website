@@ -622,7 +622,6 @@ ul {
     line-height: 107%;
     font-size: 24px;
     color: #0d1317;
-    margin-top: 33px;
     display: inline-block;
 }
 
@@ -791,10 +790,12 @@ ul {
 .about-us-img .decor-hover {
     height: 650px;
     width: 180px;
+    mix-blend-mode: multiply;
 }
 
 .features-section {
     margin-top: 125px;
+    margin-bottom: 128px;
 }
 
 .features-section .flex-jc-sb strong {
@@ -851,7 +852,22 @@ ul {
     color: #5b5b5b;
 }
 
+.about-section {
+    display: flex;
+    align-items: center;
+    gap: 78px;
+    margin-bottom: 96px;
+}
 
+.about-section .decor-hover {
+    z-index: 1;
+    width: 284px;
+    height: 289px;
+    bottom: -25px;
+    right: -25px;
+    mix-blend-mode: multiply;
+
+}
 
 
 
