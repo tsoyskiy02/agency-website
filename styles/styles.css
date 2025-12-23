@@ -866,14 +866,84 @@ ul {
     bottom: -25px;
     right: -25px;
     mix-blend-mode: multiply;
-
 }
 
+.team-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 128px;
+}
 
+.team-section h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: #0d1317;
+}
 
+.team-section p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5b5b5b;
+    margin-top: 27px;
+    margin-bottom: 64px;
+}
 
+.team-cards {
+    display: flex;
+    gap: 40px;
+}
 
+.team-cards .card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+}
 
+.card-info {
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    width: 290px;
+    height: 233px;
+    background: rgba(0, 0, 0, 0.75);
+    color: #fff;
+
+    padding: 16px;
+    border-radius: 14px;
+
+    transform: translateY(120%);
+    opacity: 0;
+    transition: 0.3s ease;
+}
+
+.card:hover .card-info {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.card-info .position {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
+    opacity: 70%;
+}
+
+.card-info h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+}
+
+.card-info p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 199%;
+    color: #fff;
+}
 
 
 
