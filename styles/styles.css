@@ -148,6 +148,8 @@ ul {
 .decor-img {
     width: 179px;
     height: 178px;
+    right: 0;
+    top: 80px;
     z-index: 1;
 }
 
