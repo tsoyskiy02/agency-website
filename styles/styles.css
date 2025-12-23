@@ -143,6 +143,8 @@ ul {
     width: 153px;
     height: 667px;
     z-index: 1;
+    background: rgba(245, 138, 7, 1);
+    opacity: 75%;
 }
 
 .decor-img {
@@ -762,6 +764,117 @@ ul {
     line-height: 100%;
     color: #fff;
 }
+
+.about-us h2 {
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.about-us a {
+    max-width: 172px;
+}
+
+.about-us-img {
+    position: relative;
+}
+
+.about-us-img .decor-rotate {
+    z-index: 1;
+    background: none;
+    right: -60px;
+    top: auto;
+    bottom: -40px;
+    animation: rotate 10s linear infinite;
+    pointer-events: none;
+}
+
+.about-us-img .decor-hover {
+    height: 650px;
+    width: 180px;
+}
+
+.features-section {
+    margin-top: 125px;
+}
+
+.features-section .flex-jc-sb strong {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #0d1317;
+}
+
+.features-section .flex-jc-sb p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #1d3444;
+    margin-left: 72px;
+}
+
+.flex-jc-sb {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-section .features-cards {
+    display: flex;
+    gap: 66px;
+    margin-top: 64px;
+}
+
+.features-cards .card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.features-cards .card small {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: #f58a07;
+}
+
+.features-cards .card strong {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 107%;
+    color: #0d1317;
+    margin: 0;
+}
+
+.features-cards .card p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #5b5b5b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
