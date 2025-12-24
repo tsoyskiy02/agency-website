@@ -188,7 +188,7 @@ ul {
 }
 
 .header-wrapper {
-    margin-top: 28px;
+    margin-top: 15px;
     margin-bottom: 16px;
 }
 
@@ -228,7 +228,7 @@ ul {
 .main-banner {
     display: flex;
     align-items: center;
-    min-height: 600px;
+    min-height: 475px;
 }
 
 .main-banner-info {
@@ -327,6 +327,10 @@ ul {
     margin-top: 64px;
 }
 
+.images-coffee {
+    background: url("../images/woman-coffe.png") center/cover no-repeat;
+}
+
 .info-cards .info-card {
     background-color: #fff;
     border-radius: 20px;
@@ -339,7 +343,7 @@ ul {
     font-size: 24px;
     line-height: 107%;
     margin-top: 32px;
-    display: inline-block;
+    display: block;
     margin-bottom: 16px;
 }
 
@@ -609,7 +613,7 @@ ul {
     display: flex;
     flex-direction: column;
     background-color: #fff;
-    border-radius: 20px 20px 0 0;
+    border-radius: 20px;
 }
 
 
@@ -623,6 +627,8 @@ ul {
     font-size: 24px;
     color: #0d1317;
     display: inline-block;
+    margin-top: 33px;
+    margin-bottom: 17px;
 }
 
 .card p {
