@@ -765,6 +765,7 @@ footer {
 /*  ABOUT US PAGE  */
 
 .energy-section .container {
+    gap: 46px;
 }
 
 .energy-img {
@@ -957,6 +958,107 @@ footer {
     line-height: 199%;
     color: #fff;
 }
+
+
+/*  Services page  */
+
+.services-section {
+    position: relative;
+    gap: 46px;
+}
+
+.services-section .decor-hover {
+    mix-blend-mode: multiply;
+    height: 650px;
+}
+
+.services-section .decor-rotate {
+    right: -60px;
+    top: 90px;
+    bottom: auto;
+}
+
+/*  Business strategy section  */
+
+.business-strategy {
+    gap: 80px;
+}
+
+.business-strategy .flex-column h3 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: var(--black-color);
+}
+
+.business-strategy .flex-column p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--gray-color);
+    margin-top: 24px;
+}
+
+.business-strategy .flex-column ul {
+    padding: 0;
+    margin-top: 24px;
+}
+
+.business-strategy .flex-column ul li {
+    position: relative;
+    padding-left: 16px;
+}
+
+.business-strategy .flex-column ul li::before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    background-color: var(--black-color);
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.business-strategy .flex-column ul li {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--gray-color);
+}
+
+.business-strategy .left-side-img {
+    position: relative;
+}
+
+.business-strategy .left-side-img .decor-hover {
+    width: 95px;
+    height: 97px;
+    border-radius: 20px;
+    mix-blend-mode: multiply;
+    top: 128px;
+    left: -50px;
+    bottom: auto;
+    right: auto;
+}
+
+.business-strategy .right-side-img {
+    position: relative;
+}
+
+.business-strategy .right-side-img .decor-hover {
+    width: 95px;
+    height: 97px;
+    border-radius: 20px;
+    mix-blend-mode: multiply;
+    top: 272px;
+    right: -50px;
+    bottom: auto;
+    left: auto;
+}
+
+
 
 
 
