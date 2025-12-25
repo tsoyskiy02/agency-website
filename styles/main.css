@@ -761,6 +761,207 @@ footer {
     color: #fff;
 }
 
+/*  ABOUT US PAGE  */
+
+.energy-section .container {
+}
+
+.energy-img {
+    position: relative;
+}
+
+.energy-img .decor-hover {
+    mix-blend-mode: multiply;
+    height: 650px;
+}
+
+.energy-img .decor-rotate {
+    right: -60px;
+    bottom: -40px;
+    top: auto;
+}
+
+.energy-title h2 {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 72px;
+    color: var(--cyan-color);
+    margin-bottom: 24px;
+}
+
+.energy-title p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--gray-color);
+    margin-bottom: 42px;
+}
+
+/*  Features section  */
+
+.features-section .container .flex-space-between {
+    gap: 72px;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+.features-section .container .flex-space-between strong {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--black-color);
+}
+
+.features-section .container .flex-space-between p {
+    font-weight: 500;
+    color: var(--cyan-color);
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.features-cards {
+    gap: 66px;
+}
+
+.features-cards .card small {
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    color: var(--orange-color);
+    line-height: 50px;
+}
+
+.features-cards .card strong {
+    color: var(--black-color);
+    font-weight: 600;
+    line-height: 107%;
+    font-size: 24px;
+    display: block;
+    margin-top: 16px;
+}
+
+.features-cards .card p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--gray-color);
+    margin-top: 16px;
+}
+
+/*  About section  */
+
+.about-section .container {
+    gap: 78px;
+}
+
+.about-section .energy-info h2 {
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 600;
+    color: var(--black-color);
+}
+
+.about-section .energy-info p {
+    margin-top: 32px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--gray-color);
+}
+
+.about-section .energy-img {
+    position: relative;
+}
+
+
+.about-section .energy-img .decor-hover {
+    mix-blend-mode: multiply;
+    width: 284px;
+    height: 289px;
+    border-radius: 20px;
+    bottom: -15px;
+    right: -20px;
+}
+
+/*  Team section  */
+
+.team-section .container h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: var(--black-color);
+}
+
+.team-section .container p {
+    margin-top: 27px;
+    margin-bottom: 64px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--gray-color);
+    max-width: 721px;
+}
+
+.team-section .team-cards {
+    gap: 40px;
+}
+
+.team-section .team-cards .card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.team-section .team-cards .card .card-info {
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    width: 290px;
+    height: 233px;
+    background: rgba(0, 0, 0, 0.75);
+    color: #fff;
+
+    padding: 24px;
+    border-radius: 14px;
+
+    transform: translateY(120%);
+    opacity: 0;
+    transition: 0.3s ease;
+}
+
+.team-section .team-cards .card:hover .card-info {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.team-section .team-cards .card .card-info .position {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
+    opacity: 70%;
+}
+
+.team-section .team-cards .card .card-info h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+    margin-top: 6px;
+}
+
+.team-section .team-cards .card .card-info p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 199%;
+    color: #fff;
+}
+
+
+
+
+
+
 
 
 

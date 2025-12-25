@@ -5,54 +5,54 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/normalize.css">
     <title>Document</title>
 </head>
 <body>
-<header class="header-wrapper">
-    <div class="header-container">
-        <div class="header-content">
-            <a href="index.html"><img src="icons/Logo.svg" alt="Logo" width="122" height="28" loading="lazy"
-                                      class="header-logo"/></a>
-            <div class="header-navigation">
-                <nav class="header-navigation-list">
-                    <ul>
-                        <li><a href="about-us.html">About Us</a></li>
-                        <li><a href="/">Careers</a></li>
-                        <li><a href="/">Services</a></li>
-                        <li><a href="/">Blog</a></li>
-                        <li><a href="/">Contact Us</a></li>
-                    </ul>
-                </nav>
-                <a href="#" class="light-button main-button">
-                    Clone project
-                </a>
-            </div>
+<header>
+    <div class="container">
+        <div class="flex-side">
+            <a href="./main-page.html">
+                <img src="./icons/Logo.svg" alt="Finsweet Logo"/>
+            </a>
+            <nav class="main-navigation">
+                <ul class="flex-side">
+                    <li><a href="./about.html">About us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="header-button">Clone project</a>
         </div>
     </div>
 </header>
-<section class="default default-container">
-    <div class="container">
-        <div class="energy-wrapper">
-            <div class="energy-info about-us">
+<main>
+    <section class="energy-section">
+        <div class="container flex-side">
+            <div class="energy-title">
                 <h2>We value human, organizational, and operational intelligence, not just artificial</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo odio, sagittis quis ornare
                     quis.</p>
                 <a href="/" class="main-button">Work With Us</a>
             </div>
-            <div class="energy-img about-us-img">
+            <div class="energy-img">
                 <div class="decor decor-hover"></div>
                 <div class="decor decor-rotate"><img src="images/Circle.png" alt=""/></div>
                 <img src="images/about-us/about-us.png" alt="">
             </div>
         </div>
-        <div class="features-section">
-            <div class="flex-jc-sb">
+    </section>
+    <section class="features-section">
+        <div class="container">
+            <div class="flex-space-between">
                 <strong>The Energy of a start-up combined with 30 years of experience</strong>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit
                     elit et, mattis purus. Vivamus commodo suscipit tellus et pellentesque.</p>
             </div>
-            <div class="features-cards">
+            <div class="features-cards flex-side">
                 <div class="card">
                     <small>15+</small>
                     <strong>Awards received</strong>
@@ -75,23 +75,27 @@
                 </div>
             </div>
         </div>
-        <div class="about-section">
-            <div class="energy-info about-us">
+    </section>
+    <section class="about-section">
+        <div class="container flex-side">
+            <div class="energy-info">
                 <h2>We want to get local identification in every corner of the world in this era of global
                     citizenship.</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit
                     elit et, mattis purus. Vivamus commodo suscipit tellus et pellentesque.</p>
             </div>
-            <div class="energy-img about-us-img">
+            <div class="energy-img">
                 <div class="decor decor-hover"></div>
                 <img src="images/about-us/Image.png" alt="">
             </div>
         </div>
-        <div class="team-section">
+    </section>
+    <section class="team-section">
+        <div class="container">
             <h2>Teamwork is the only <br>way we work</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit
                 et, mattis purus. Vivamus commodo suscipit tellus et pellentesque.</p>
-            <div class="team-cards">
+            <div class="team-cards flex-side">
                 <div class="card">
                     <img src="images/about-us/Image%201.png" alt="Какой-то человек"/>
                     <div class="card-info">
@@ -138,70 +142,69 @@
                 </div>
             </div>
         </div>
-        <div class="dream-info">
-            <div class="dream-title">
+    </section>
+    <section class="video-section">
+        <div class="container flex-side">
+            <div class="video-info">
                 <h3>Finsweet Was A Dream To Work With</h3>
-                <p>
-                    Maecenas efficitur scelerisque lorem, et varius lacus tincidunt vel. Pellentesque a arcu vitae diam
-                    dapibus mattis vel vel orci. Vivamus eleifend nec felis vel auctor.
-                </p>
-                <div class="ceo">
-                    <img src="/images/round-img.png" alt="">
-                    <div class="ceo-info">
+                <p>Maecenas efficitur scelerisque lorem, et varius lacus tincidunt vel. Pellentesque a arcu vitae diam
+                    dapibus mattis vel vel orci. Vivamus eleifend nec felis vel auctor.</p>
+                <div class="video-card flex-side">
+                    <img src="./images/round-img.png" alt="">
+                    <div class="card-text flex-column">
                         <strong>Chikelu Neo</strong>
                         <small>CEO at MazeAI</small>
                     </div>
                 </div>
             </div>
-            <div class="video-container">
-                <img src="/images/video.png" alt="">
-                <div class="video">
-                    <img src="/icons/play-icon.png" alt="">
+            <div class="video">
+                <img src="./images/video.png" alt="">
+                <div class="play-icon">
+                    <img src="./icons/play-icon.png" alt="">
                     <p>Play Video</p>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<section class="aqua aqua-container mb0">
-    <div class="container">
-        <div class="news">
-            <h2>Latest Blog & News</h2>
+    </section>
+
+    <section class="news-section">
+        <div class="container">
+            <h3>Latest Blog & News</h3>
+            <div class="news-list flex-side">
+                <div class="news-card">
+                    <img src="./images/news1.png" alt="">
+                    <div class="card-info">
+                        <strong>Why you have to digitalize in 2021</strong>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit,
+                            hendrerit elit et.</p>
+                        <small>Learn More <span><img src="./icons/orange-arrow.svg" alt=""></span></small>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <img src="./images/news2.png" alt="">
+                    <div class="card-info">
+                        <strong>Our internal process and longerm vision</strong>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit,
+                            hendrerit elit et.</p>
+                        <small>Learn More <span><img src="./icons/orange-arrow.svg" alt=""></span></small>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <img src="./images/news3.png" alt="">
+                    <div class="card-info">
+                        <strong>Helping the next generation of leaders</strong>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit,
+                            hendrerit elit et.</p>
+                        <small>Learn More <span><img src="./icons/orange-arrow.svg" alt=""></span></small>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="news-cards">
-            <div class="card">
-                <img src="images/card1.png" alt="" class="card-img">
-                <div class="card-wrapper">
-                    <strong>Business strategy</strong>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit
-                        amet eros blandit, hendrerit elit et, </p>
-                    <a href="" class="card-button">Learn More <img src="/icons/orange-arrow.svg" alt=""></a>
-                </div>
-            </div>
-            <div class="card">
-                <img src="images/card2.png" alt="" class="card-img">
-                <div class="card-wrapper">
-                    <strong>Digitalization</strong>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit
-                        amet eros blandit, hendrerit elit et, </p>
-                    <a href="" class="card-button">Learn More <img src="/icons/orange-arrow.svg" alt=""></a>
-                </div>
-            </div>
-            <div class="card">
-                <img src="images/card3.png" alt="" class="card-img">
-                <div class="card-wrapper">
-                    <strong>Risk assessment</strong>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit
-                        amet eros blandit, hendrerit elit et, </p>
-                    <a href="" class="card-button">Learn More <img src="/icons/orange-arrow.svg" alt=""></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<footer class="blue blue-container">
+    </section>
+</main>
+<footer>
     <div class="container">
-        <div class="footer-content">
+        <div class="flex-side footer-content">
             <div class="footer-info">
                 <img src="/icons/white-logo.svg" alt="">
                 <div class="social">
