@@ -962,6 +962,10 @@ footer {
 
 /*  Services page  */
 
+.services-section .container {
+    gap: 46px;
+}
+
 .services-section {
     position: relative;
     gap: 46px;
