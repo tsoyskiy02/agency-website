@@ -1062,9 +1062,51 @@ footer {
     left: auto;
 }
 
+/*  Careers Page  */
 
+.careers-section .container h3 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: var(--black-color);
+}
 
+.careers-section .container .cards {
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 64px;
+}
 
+.careers-section .container .cards .card {
+    padding: 32px 40px;
+    background-color: rgba(193, 228, 255, 0.3);
+    border-radius: 20px;
+    flex: 0 0 calc((100% - 80px) / 3);
+}
+
+.careers-section .container .cards .card strong {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: var(--black-color);
+}
+
+.careers-section .container .cards .card p {
+    color: #394149;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+
+.careers-section .container .cards .card small {
+    color: var(--orange-color);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 107%;
+    cursor: pointer;
+}
 
 
 
