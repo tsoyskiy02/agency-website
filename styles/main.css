@@ -14,6 +14,11 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+.transparent-card {
+    background-color: #EDF7FF !important;
+    flex: 1 1 calc((100% - 80px) / 3);
+}
+
 :root {
     --black-color: #0d1317;
     --gray-color: #5b5b5b;
@@ -271,7 +276,7 @@ nav .flex-side li a {
     color: var(--gray-color);
 }
 
-.help-card small {
+.help-card a {
     margin-top: 24px;
     color: var(--orange-color);
     line-height: 107%;
@@ -589,8 +594,7 @@ nav .flex-side li a {
 }
 
 .transparent {
-    background-color: #EDF7FF !important;
-    flex: 1 1 calc((100% - 80px) / 3);
+    background-color: transparent;
 }
 
 .news-card .card-info {
@@ -616,7 +620,7 @@ nav .flex-side li a {
     margin-bottom: 24px;
 }
 
-.news-card .card-info small {
+.news-card .card-info a {
     color: var(--orange-color);
     font-weight: 500;
     font-size: 16px;
